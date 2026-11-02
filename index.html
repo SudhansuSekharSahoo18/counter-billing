@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Download Counter Billing</title>
+  <meta name="description" content="Download Counter Billing, the billing and stock app for retail shops, for Windows.">
+  <link rel="icon" href="counterbilling_icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <img src="counterbilling_icon.png" alt="" width="72" height="72">
+      <h1>Counter Billing</h1>
+      <p class="tagline">Billing, stock and GST reports for your shop, on one Windows PC.</p>
+      <a class="download" href="https://github.com/SudhansuSekharSahoo18/counter-billing/releases/latest/download/CounterBilling.exe">Download for Windows</a>
+      <p class="details" id="release-details" hidden></p>
+      <p class="requirements">Windows 10 or 11, 64-bit. Nothing else to install.</p>
+    </header>
+
+    <section id="whats-new" hidden>
+      <h2>What's new</h2>
+      <p id="release-notes"></p>
+    </section>
+
+    <section>
+      <h2>Install</h2>
+      <ol>
+        <li>Download <code>CounterBilling.exe</code> and keep it anywhere, such as the Desktop.</li>
+        <li>Double-click it. If Windows shows "Windows protected your PC", click <strong>More info</strong>, then <strong>Run anyway</strong>.</li>
+        <li>Choose <strong>Use this PC</strong>, then create your admin account and enter your shop details.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Update to a new version</h2>
+      <ol>
+        <li>Open the <strong>Backup</strong> page in the app and click <strong>Back up now</strong>.</li>
+        <li>Close Counter Billing.</li>
+        <li>Download the new <code>CounterBilling.exe</code> and put it in place of the old one.</li>
+      </ol>
+      <p>Your bills and stock are kept separately from the program, so they stay as they are.</p>
+    </section>
+
+    <footer>
+      <p id="checksum" hidden>SHA-256: <code id="checksum-value"></code></p>
+      <p><a href="https://github.com/SudhansuSekharSahoo18/counter-billing/releases">All versions</a></p>
+    </footer>
+  </main>
+  <script src="release.js"></script>
+</body>
+</html>

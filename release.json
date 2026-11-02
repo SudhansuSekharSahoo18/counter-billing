@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "published": "2026-11-02T14:33:52Z",
+  "size": 90824129,
+  "sha256": "0ae23bb3a56efd33c092b81f68f221cdb5fb3997f3f32141f0e98ce2b0995400",
+  "notes": "First release of Counter Billing: billing, stock, customer credit, payments, day close and backups."
+}

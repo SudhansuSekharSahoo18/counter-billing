@@ -1,0 +1,129 @@
+/* The same colours as the app (Client/src/index.css). */
+:root {
+  --bg: #f3f5f9;
+  --surface: #ffffff;
+  --border: #e2e8f0;
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.6 "Segoe UI", system-ui, Arial, sans-serif;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.hero img {
+  display: block;
+  margin: 0 auto 12px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+.tagline {
+  margin: 8px 0 24px;
+  color: var(--text-muted);
+  font-size: 18px;
+}
+
+.download {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 10px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.download:hover {
+  background: var(--primary-hover);
+}
+
+.download:focus-visible {
+  outline: 3px solid var(--text);
+  outline-offset: 2px;
+}
+
+.details {
+  margin: 14px 0 0;
+  font-weight: 600;
+}
+
+.requirements {
+  margin: 4px 0 0;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+section {
+  margin-bottom: 16px;
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+}
+
+h2 {
+  margin: 0 0 8px;
+  font-size: 19px;
+}
+
+ol {
+  margin: 0;
+  padding-left: 22px;
+}
+
+li + li {
+  margin-top: 6px;
+}
+
+section p {
+  margin: 10px 0 0;
+}
+
+#release-notes {
+  margin: 0;
+  white-space: pre-line;
+}
+
+footer {
+  color: var(--text-muted);
+  font-size: 13px;
+  text-align: center;
+}
+
+footer p {
+  margin: 8px 0 0;
+}
+
+footer code {
+  overflow-wrap: anywhere;
+}
+
+footer a {
+  color: var(--primary);
+}
