@@ -36,6 +36,17 @@ main {
   margin: 0 auto 12px;
 }
 
+.badge {
+  display: inline-block;
+  margin: 0 0 12px;
+  padding: 4px 14px;
+  border-radius: 999px;
+  background: #dcfce7;
+  color: #166534;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 h1 {
   margin: 0;
   font-size: 34px;
@@ -95,6 +106,11 @@ h2 {
 ol {
   margin: 0;
   padding-left: 22px;
+}
+
+.features {
+  margin: 0;
+  padding-left: 20px;
 }
 
 li + li {
