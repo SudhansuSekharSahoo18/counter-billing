@@ -3,5 +3,24 @@
   "published": "2026-11-04T10:09:09Z",
   "size": 90830397,
   "sha256": "0e78eb794e5472ed5dc8816a11a02c25a398c268ba56bc5f1705559d1cd1fb66",
-  "notes": "Fixed the footer being cut off in the bill designer"
+  "notes": "Fixed the footer being cut off in the bill designer",
+  "url": "https://github.com/SudhansuSekharSahoo18/counter-billing/releases/download/v1.1.0/CounterBilling.exe",
+  "releases": [
+    {
+      "version": "1.1.0",
+      "published": "2026-11-04T10:09:09Z",
+      "size": 90830397,
+      "sha256": "0e78eb794e5472ed5dc8816a11a02c25a398c268ba56bc5f1705559d1cd1fb66",
+      "notes": "Fixed the footer being cut off in the bill designer",
+      "url": "https://github.com/SudhansuSekharSahoo18/counter-billing/releases/download/v1.1.0/CounterBilling.exe"
+    },
+    {
+      "version": "1.0.0",
+      "published": "2026-11-02T14:33:52Z",
+      "size": 90824129,
+      "sha256": "0ae23bb3a56efd33c092b81f68f221cdb5fb3997f3f32141f0e98ce2b0995400",
+      "notes": "First release of Counter Billing: billing, stock, customer credit, payments, day close and backups.",
+      "url": "https://github.com/SudhansuSekharSahoo18/counter-billing/releases/download/v1.0.0/CounterBilling.exe"
+    }
+  ]
 }

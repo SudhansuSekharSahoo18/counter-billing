@@ -121,9 +121,84 @@ section p {
   margin: 10px 0 0;
 }
 
-#release-notes {
+.versions {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.version {
+  padding: 14px 0 0;
+  border-top: 1px solid var(--border);
+}
+
+li.version + li.version {
+  margin-top: 14px;
+}
+
+.version-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 16px;
+}
+
+.version h3 {
   margin: 0;
+  font-size: 17px;
+}
+
+.version-tag {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 1px 10px;
+  border-radius: 999px;
+  background: #dbeafe;
+  color: var(--primary-hover);
+  font-size: 13px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.version-download {
+  padding: 8px 18px;
+  border-radius: 8px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.version-download:hover {
+  background: var(--primary-hover);
+}
+
+.version-download:focus-visible {
+  outline: 3px solid var(--text);
+  outline-offset: 2px;
+}
+
+section .version-details {
+  margin: 4px 0 0;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+section .version-notes {
+  margin: 6px 0 0;
   white-space: pre-line;
+}
+
+section .version-checksum {
+  margin: 6px 0 0;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.version-checksum code {
+  overflow-wrap: anywhere;
 }
 
 footer {
@@ -134,10 +209,6 @@ footer {
 
 footer p {
   margin: 8px 0 0;
-}
-
-footer code {
-  overflow-wrap: anywhere;
 }
 
 footer a {
